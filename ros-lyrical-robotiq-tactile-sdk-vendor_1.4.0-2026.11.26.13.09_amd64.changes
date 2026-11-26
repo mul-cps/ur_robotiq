@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Thu, 19 Nov 2026 00:00:00 -0000
+Source: ros-lyrical-robotiq-tactile-sdk-vendor
+Binary: ros-lyrical-robotiq-tactile-sdk-vendor
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: amd64
+Version: 1.4.0-2026.11.26.13.09
+Distribution: resolute
+Urgency: high
+Maintainer: "Robotiq" <ros@robotiq.com>
+Changed-By: "Robotiq" <ros@robotiq.com>
+Description:
+ ros-lyrical-robotiq-tactile-sdk-vendor - Builds the Robotiq tactile sensors C++ SDK (github.com/robotiq/ro
+Changes:
+ ros-lyrical-robotiq-tactile-sdk-vendor (1.4.0-2026.11.26.13.09) resolute; urgency=high
+ .
+   * First release.
+Checksums-Sha1:
+ e54995454e12f45693c46f5063dd04c679bad2fc 127276 ros-lyrical-robotiq-tactile-sdk-vendor-dbgsym_1.4.0-2026.11.26.13.09_amd64.ddeb
+ 86542ccf3376f0f2fb6c328bf37e42aa919865f1 10263 ros-lyrical-robotiq-tactile-sdk-vendor_1.4.0-2026.11.26.13.09_amd64.buildinfo
+ 2841a73e0a583119dd30f5d4d0bc129d2fe8bd5c 27592 ros-lyrical-robotiq-tactile-sdk-vendor_1.4.0-2026.11.26.13.09_amd64.deb
+Checksums-Sha256:
+ e22d883f4c2121b7b69abe78548ec5d174454a61e0488226480bac098378f334 127276 ros-lyrical-robotiq-tactile-sdk-vendor-dbgsym_1.4.0-2026.11.26.13.09_amd64.ddeb
+ 270a8cf3e14a76b51a272484fcaa4ed9973d5ec04de55bcab90f51bb757e2139 10263 ros-lyrical-robotiq-tactile-sdk-vendor_1.4.0-2026.11.26.13.09_amd64.buildinfo
+ f15ed6c8b1b38c1ebbcde612b16422c13196a6616c610d2126c2bb4f51c8bba6 27592 ros-lyrical-robotiq-tactile-sdk-vendor_1.4.0-2026.11.26.13.09_amd64.deb
+Files:
+ b2204cb45433179aa87392f6508c328b 127276 debug optional ros-lyrical-robotiq-tactile-sdk-vendor-dbgsym_1.4.0-2026.11.26.13.09_amd64.ddeb
+ bc28ae3108d535701ef9b4dfe00b2ae4 10263 misc optional ros-lyrical-robotiq-tactile-sdk-vendor_1.4.0-2026.11.26.13.09_amd64.buildinfo
+ a9fccdfee7d052c5bf97172c09f4a377 27592 misc optional ros-lyrical-robotiq-tactile-sdk-vendor_1.4.0-2026.11.26.13.09_amd64.deb

@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Thu, 19 Nov 2026 00:00:00 -0000
+Source: ros-lyrical-robotiq-tsf
+Binary: ros-lyrical-robotiq-tsf
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: amd64
+Version: 1.4.0-2026.11.26.13.16
+Distribution: resolute
+Urgency: high
+Maintainer: "Robotiq" <ros@robotiq.com>
+Changed-By: "Robotiq" <ros@robotiq.com>
+Description:
+ ros-lyrical-robotiq-tsf - ROS 2 tactile sensing package for the Robotiq TSF-85 (Humble, Jaz
+Changes:
+ ros-lyrical-robotiq-tsf (1.4.0-2026.11.26.13.16) resolute; urgency=high
+ .
+   * First release on the ROS build farm. Earlier releases: https://github.com/robotiq/robotiq-ros/releases
+   * ``tsf_driver.launch.py`` defaults to ``poll_data_sdk_node``; the previous default named a node the package no longer builds.
+Checksums-Sha1:
+ 5f3a215633cd8499c9f1c3a61d870a75fbcac9d8 6767992 ros-lyrical-robotiq-tsf-dbgsym_1.4.0-2026.11.26.13.16_amd64.ddeb
+ da20988faa4770d99ba12470f3f213a721f81a46 18926 ros-lyrical-robotiq-tsf_1.4.0-2026.11.26.13.16_amd64.buildinfo
+ 898975f743bd3c017dff1c2587e1eda9fd192066 424266 ros-lyrical-robotiq-tsf_1.4.0-2026.11.26.13.16_amd64.deb
+Checksums-Sha256:
+ 948cadbf6c9686033f297e9fe4303bbce1c992ccd4bafa2ead20570a61385c72 6767992 ros-lyrical-robotiq-tsf-dbgsym_1.4.0-2026.11.26.13.16_amd64.ddeb
+ dff420e3d9a769d9b8a6a3c144dd1a0001c3c8f7192cf61b3a8e910a7cafdef0 18926 ros-lyrical-robotiq-tsf_1.4.0-2026.11.26.13.16_amd64.buildinfo
+ 97e4c4e10cc7532af3172a25bec5c7fb68e9e738fbc5cc9405a7573303c3f448 424266 ros-lyrical-robotiq-tsf_1.4.0-2026.11.26.13.16_amd64.deb
+Files:
+ 9e9e4932630d0b697738867791c0e909 6767992 debug optional ros-lyrical-robotiq-tsf-dbgsym_1.4.0-2026.11.26.13.16_amd64.ddeb
+ b6a09516bc6b54c1674069271c582b8e 18926 misc optional ros-lyrical-robotiq-tsf_1.4.0-2026.11.26.13.16_amd64.buildinfo
+ 56390cd030a7d33881309f1aa028defe 424266 misc optional ros-lyrical-robotiq-tsf_1.4.0-2026.11.26.13.16_amd64.deb

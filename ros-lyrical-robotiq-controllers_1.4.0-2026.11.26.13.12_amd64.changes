@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Thu, 19 Nov 2026 00:00:00 -0000
+Source: ros-lyrical-robotiq-controllers
+Binary: ros-lyrical-robotiq-controllers
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: amd64
+Version: 1.4.0-2026.11.26.13.12
+Distribution: resolute
+Urgency: high
+Maintainer: "Robotiq" <ros@robotiq.com>
+Changed-By: "Robotiq" <ros@robotiq.com>
+Description:
+ ros-lyrical-robotiq-controllers - Controllers for the Robotiq gripper.
+Changes:
+ ros-lyrical-robotiq-controllers (1.4.0-2026.11.26.13.12) resolute; urgency=high
+ .
+   * First release on the ROS build farm. Earlier releases: https://github.com/robotiq/robotiq-ros/releases
+   * ``normalized_gripper_cmd``, a second action on the gripper controller, takes the ``gripper_cmd`` goal with a position from 0 = open to 1 = closed. On Jazzy and newer, its speed and force also run from 0 to 1.
+   * ``robotiq_controllers/NormalizedPositionBroadcaster`` publishes the gripper's position on ``joint_states`` as ``robotiq_normalized_joint``, 0 = open to 1 = closed.
+   * ``RobotiqActivationController`` takes a ``reactivate_gpio`` parameter, default ``reactivate_gripper``.
+   * ``normalized_gripper_cmd`` scales a normalized speed over ``gripper_profile``'s speed range, as the driver does.
+   * Changes for users of PickNik's 0.0.1 release: ``robotiq_controllers`` now depends on ``robotiq_driver`` and ``robotiq_msgs``.
+Checksums-Sha1:
+ 0f0f0ecaa16dbbfcea66b9ca4d1e8e95174c4101 3354746 ros-lyrical-robotiq-controllers-dbgsym_1.4.0-2026.11.26.13.12_amd64.ddeb
+ 3ea3cd55bd1e7dcbd13fc6ea368deb3527e18955 23093 ros-lyrical-robotiq-controllers_1.4.0-2026.11.26.13.12_amd64.buildinfo
+ f84698d929b79b0045975fa1573050556008c7bc 208314 ros-lyrical-robotiq-controllers_1.4.0-2026.11.26.13.12_amd64.deb
+Checksums-Sha256:
+ 6872abffda77d4046c99f3517b5be9e014557b7654ea287de22c182e47e24193 3354746 ros-lyrical-robotiq-controllers-dbgsym_1.4.0-2026.11.26.13.12_amd64.ddeb
+ 5af94ca633e693c542d773086f460acfd7b54efe054578296db6772b36dc8232 23093 ros-lyrical-robotiq-controllers_1.4.0-2026.11.26.13.12_amd64.buildinfo
+ 2baefd252599d5cea66c1cbbd96df4ef842d14f3362331df313a509588bfc4f5 208314 ros-lyrical-robotiq-controllers_1.4.0-2026.11.26.13.12_amd64.deb
+Files:
+ f80363de5422917df9ff83464d937b0e 3354746 debug optional ros-lyrical-robotiq-controllers-dbgsym_1.4.0-2026.11.26.13.12_amd64.ddeb
+ 568e76e47843a28fcda6757b511ade30 23093 misc optional ros-lyrical-robotiq-controllers_1.4.0-2026.11.26.13.12_amd64.buildinfo
+ e9374d2d80601cce000368b7b9baf4d3 208314 misc optional ros-lyrical-robotiq-controllers_1.4.0-2026.11.26.13.12_amd64.deb

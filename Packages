@@ -1,0 +1,357 @@
+Package: ros-lyrical-robotiq-2f-urcap-adapter
+Architecture: amd64
+Version: 0-2026.11.26.13.06
+Priority: optional
+Section: misc
+Maintainer: "David Oberacker" <oberacker@fzi.de>
+Installed-Size: 101
+Depends: ros-lyrical-control-msgs, ros-lyrical-rclpy
+Filename: ./ros-lyrical-robotiq-2f-urcap-adapter_0-2026.11.26.13.06_amd64.deb
+Size: 13716
+MD5sum: c172644e24aed880b90f67e3ed254e86
+SHA1: f0f561304068255fe693565e254f53f4e635a1a7
+SHA256: 214b557e4cb228e6e26a4b5d6ef12c72f15d81d945bccb441271a0da1dca5a9a
+SHA512: 04312beb619c6d8f2e60df778ea63f77705f1d3fc7c404b8668ef68389b2b9931dbafe2ede4364298b3470453b6fdab6f353a193a9d3f273532f48e0a6426644
+Homepage: https://index.ros.org/p/robotiq_2f_urcap_adapter/#lyrical
+Description: Direct control interface to the Robotiq 2F gripper URCap via Socket and String Commands
+
+Package: ros-lyrical-robotiq-controllers-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.4.0-2026.11.26.13.12
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-robotiq-controllers
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 3751
+Depends: ros-lyrical-robotiq-controllers (= 1.4.0-2026.11.26.13.12)
+Filename: ./ros-lyrical-robotiq-controllers-dbgsym_1.4.0-2026.11.26.13.12_amd64.ddeb
+Size: 3354746
+MD5sum: f80363de5422917df9ff83464d937b0e
+SHA1: 0f0f0ecaa16dbbfcea66b9ca4d1e8e95174c4101
+SHA256: 6872abffda77d4046c99f3517b5be9e014557b7654ea287de22c182e47e24193
+SHA512: 9e99be3387282f2ac4be277f8de03ef16fa9e164c63533fde44a0d825b8883ae1283662a71a267990ee327001e4c28e5cdf4eac6407c59e5c4c00fecd37810ea
+Description: debug symbols for ros-lyrical-robotiq-controllers
+Build-Ids: 9ce11f2af15cb45d5835abfebbefb67e34339fc7
+
+Package: ros-lyrical-robotiq-controllers
+Architecture: amd64
+Version: 1.4.0-2026.11.26.13.12
+Priority: optional
+Section: misc
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 785
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt10 (>= 10.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 14), libtinyxml2-11 (>= 11.0.0), ros-lyrical-controller-interface, ros-lyrical-hardware-interface, ros-lyrical-parallel-gripper-controller, ros-lyrical-rclcpp-action, ros-lyrical-realtime-tools, ros-lyrical-robotiq-driver, ros-lyrical-robotiq-msgs, ros-lyrical-sensor-msgs, ros-lyrical-std-srvs, ros-lyrical-tinyxml2-vendor
+Filename: ./ros-lyrical-robotiq-controllers_1.4.0-2026.11.26.13.12_amd64.deb
+Size: 208314
+MD5sum: e9374d2d80601cce000368b7b9baf4d3
+SHA1: f84698d929b79b0045975fa1573050556008c7bc
+SHA256: 2baefd252599d5cea66c1cbbd96df4ef842d14f3362331df313a509588bfc4f5
+SHA512: 5827cabadeb56f16581081213e002516d74fb834aed8d895f64c4a1accce0906adaa6357a6f59bfb770b905bb2e33d95945db9979a10e9daeef77f90bf0c76f1
+Homepage: https://index.ros.org/p/robotiq_controllers/#lyrical
+Description: Controllers for the Robotiq gripper.
+
+Package: ros-lyrical-robotiq-description
+Architecture: amd64
+Version: 1.4.0-2026.11.26.13.15
+Priority: optional
+Section: misc
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 20950
+Depends: ros-lyrical-joint-state-broadcaster, ros-lyrical-joint-state-publisher-gui, ros-lyrical-launch, ros-lyrical-launch-ros, ros-lyrical-parallel-gripper-controller, ros-lyrical-robot-state-publisher, ros-lyrical-robotiq-controllers, ros-lyrical-ros2-control, ros-lyrical-rviz2, ros-lyrical-urdf, ros-lyrical-xacro
+Filename: ./ros-lyrical-robotiq-description_1.4.0-2026.11.26.13.15_amd64.deb
+Size: 4913362
+MD5sum: fe277c5b1b862264880d53a1a7f973f1
+SHA1: a41b69331812d24d5a3bfa133f5049cfa09a537e
+SHA256: b88bf7378304f6becea8f51cca190f530bfba6a961d8c1e7b216cb16082f927b
+SHA512: 18a0183c79af31761a70e63d91e40c6ee4f1a3c38e26735332948581f3641641e61854bd8d63b3baa5a158877cbd59eb88bd28c6c9cdedc75b1e2d8e1149ce6c
+Homepage: https://index.ros.org/p/robotiq_description/#lyrical
+Description: URDF and xacro description package for the Robotiq gripper.
+
+Package: ros-lyrical-robotiq-driver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.4.0-2026.11.26.13.11
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-robotiq-driver
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 1065
+Depends: ros-lyrical-robotiq-driver (= 1.4.0-2026.11.26.13.11)
+Filename: ./ros-lyrical-robotiq-driver-dbgsym_1.4.0-2026.11.26.13.11_amd64.ddeb
+Size: 926656
+MD5sum: 86f06e507c4761885b3d0b2475868955
+SHA1: d06916ec05a7373f1505dc0872f43285e1fb28b1
+SHA256: 10d51364d62d865427cd76a46ce9f74ccfdeac1a498fe39cbb080736bbbd0350
+SHA512: b5bcd39c70919c8ce50cd2703734c2d950e95fc8c6daf08087a43983d75d33e8a8c70fd55540d32ce5a097410157456a3f0817ac906d82eb620b716865b6523c
+Description: debug symbols for ros-lyrical-robotiq-driver
+Build-Ids: 6f9ad07ba8e68f3e0120e4abdece60f5454567aa
+
+Package: ros-lyrical-robotiq-driver
+Architecture: amd64
+Version: 1.4.0-2026.11.26.13.11
+Priority: optional
+Section: misc
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 482
+Depends: libc6 (>= 2.42), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt10 (>= 10.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 14), ros-lyrical-hardware-interface, ros-lyrical-lifecycle-msgs, ros-lyrical-pluginlib, ros-lyrical-rclcpp, ros-lyrical-rclcpp-lifecycle, ros-lyrical-robotiq-grippers-sdk-vendor
+Filename: ./ros-lyrical-robotiq-driver_1.4.0-2026.11.26.13.11_amd64.deb
+Size: 140208
+MD5sum: 1dede36302ef90f2b9789f940cf7252d
+SHA1: 4ce56162b859461637e7360620634f683a4c36a1
+SHA256: d38fe9ac37e5a69d2950a3535444fe331ee013cb080837a62c92d6743ab0d4d4
+SHA512: 28e12346d3cc7024d6fde2554746540f7de3feb46cc5cc88d26f5e7f7313d497ea3f0586631fdb841fb27aa6293f9f4baa82c9c98a88c4ba0788eca1d3479ed2
+Homepage: https://index.ros.org/p/robotiq_driver/#lyrical
+Description: ROS2 driver package for the Robotiq gripper.
+
+Package: ros-lyrical-robotiq-grippers-sdk-vendor
+Architecture: amd64
+Version: 1.4.0-2026.11.26.13.07
+Priority: optional
+Section: misc
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 624
+Filename: ./ros-lyrical-robotiq-grippers-sdk-vendor_1.4.0-2026.11.26.13.07_amd64.deb
+Size: 122178
+MD5sum: 269af33b4e6705f34332c9fabb50f01f
+SHA1: 4e00a259face1bb36e4e95bf87816b5b5aad71f7
+SHA256: 0cd3577468b4e19c06bb2025a001cbce1b7a108a7c0871eca3d34e3ea67b155d
+SHA512: e6aa2534d1a488ffa452c1126aeb2935581c323aa557b59288ed27f9b4a87c1cb498d0f8cee66a2406593f85e2cddd2994b648ddc4f57c40f39dd8d7f5cec1c9
+Homepage: https://github.com/robotiq/robotiq-sdk/tree/main/grippers
+Description: Builds the Robotiq grippers C++ SDK (github.com/robotiq/robotiq-sdk, grippers/) at a pinned version, for the ROS packages that use it.
+
+Package: ros-lyrical-robotiq-hardware-tests-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.4.0-2026.11.26.13.14
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-robotiq-hardware-tests
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 206
+Depends: ros-lyrical-robotiq-hardware-tests (= 1.4.0-2026.11.26.13.14)
+Filename: ./ros-lyrical-robotiq-hardware-tests-dbgsym_1.4.0-2026.11.26.13.14_amd64.ddeb
+Size: 180528
+MD5sum: 1dcd3d6a1abf1aedd0895cfd7815da90
+SHA1: f654991e0a9b909ef9128981e8e511ea756137ec
+SHA256: 7818d25e3cf574dbcef34317894589936bc20a220da7f85feb296204dfa889a3
+SHA512: 503505f159de40eb1603b96f5e0960c218a4935d9c288e57f8230d9003c2a0b781e2738683902f9635fa378f2abaeb3be543ef9e859719b5a9f46d236e350427
+Description: debug symbols for ros-lyrical-robotiq-hardware-tests
+Build-Ids: efe8d8b2f4a9b5fa966de015c8de078efe0caa44
+
+Package: ros-lyrical-robotiq-hardware-tests
+Architecture: amd64
+Version: 1.4.0-2026.11.26.13.14
+Priority: optional
+Section: misc
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 82
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-lyrical-launch, ros-lyrical-launch-ros, ros-lyrical-robotiq-driver
+Filename: ./ros-lyrical-robotiq-hardware-tests_1.4.0-2026.11.26.13.14_amd64.deb
+Size: 17554
+MD5sum: 1d1285802e68ad023d4d03df2f97d0ad
+SHA1: 49eca957d2d2a114efb3b14928eb9d29e087df7f
+SHA256: 8d5c22728b75a5291a7bb29a8f7b12be4c44991cf839ad73b34012ed8f310914
+SHA512: 12b84f7f95653564260ce8e425820d511c932a5d93fa57b49e1c3ab56b63187a6b93d3d6fd59f27be2beb9edf14c87945e17c5bc6ddc3bc3cfc7560118da3dcb
+Homepage: https://index.ros.org/p/robotiq_hardware_tests/#lyrical
+Description: ROS2 driver for the Robotiq gripper.
+
+Package: ros-lyrical-robotiq-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.4.0-2026.11.26.13.08
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-robotiq-msgs
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 337
+Depends: ros-lyrical-robotiq-msgs (= 1.4.0-2026.11.26.13.08)
+Filename: ./ros-lyrical-robotiq-msgs-dbgsym_1.4.0-2026.11.26.13.08_amd64.ddeb
+Size: 197564
+MD5sum: e5220642e06e98e1dcbab48f1697a043
+SHA1: 9e05fb884161034b9e8151ed0f980999121b8674
+SHA256: 0e7df63aa7e6567b3763152976f373fcd481134d7ff4e032243d27ce1ec946d5
+SHA512: a855e8b419036b81430fe593cc9e2034c741956b8d96e5f1d37dd66e760f38536a440d918fa5a8f8b5e9c1b24824dfbf9573ae15a2a83fc5255dec596382bcfa
+Description: debug symbols for ros-lyrical-robotiq-msgs
+Build-Ids: 3924d4e21e21b48bfce70dc4053865a01f3542de 499122e452e367e544a3e2402d525e35bfa3facf 4cbb7911b49aff9ee5be4afa1c10cbe929ec8b83 73befd12121179043dbab4401a03c0fae6808a9f 811d6b3b11c03491b2914156d84abf14701c137f 877e1d6df38906910c2864c9a809d89f0bfe4494 a36e39141dcc9c8cbbf836266d948967940dd9e7 c90e22192f4a14629b6dcd23afc0b583b6a2b9bc ca6117f5131ec5b12a2766a1a701420f720a64f5 e0d42f845362a7c7660b0818324f1a15bd3d433e f0ddb46fbbdfc48d2d01db78a3a5d9d32e3a5e7e
+
+Package: ros-lyrical-robotiq-msgs
+Architecture: amd64
+Version: 1.4.0-2026.11.26.13.08
+Priority: optional
+Section: misc
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 511
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.14 (>= 3.14.1), libstdc++6 (>= 13), ros-lyrical-fastcdr, ros-lyrical-rosidl-default-runtime, ros-lyrical-std-msgs
+Filename: ./ros-lyrical-robotiq-msgs_1.4.0-2026.11.26.13.08_amd64.deb
+Size: 50110
+MD5sum: 7f4444c8d066ded2acfff231997bd026
+SHA1: 4b30c25b672446b25438d21a5ea4b74b6710af2e
+SHA256: 3ab043acbbaeffd36e57316be0ab5d8cd4b695bfa075fbd1e2b7ce0a3c6c212b
+SHA512: c6d238b70bb5bf53ef542d651b0a94a767464c5d375a8a15ccc6482e21881810031cc4953ac3e6c5869104ea7994ecc7e8bec09044110b1ad268914f61e85f33
+Homepage: https://index.ros.org/p/robotiq_msgs/#lyrical
+Description: Messages for the Robotiq gripper driver and controllers.
+
+Package: ros-lyrical-robotiq-tactile-sdk-vendor-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.4.0-2026.11.26.13.09
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-robotiq-tactile-sdk-vendor
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 151
+Depends: ros-lyrical-robotiq-tactile-sdk-vendor (= 1.4.0-2026.11.26.13.09)
+Filename: ./ros-lyrical-robotiq-tactile-sdk-vendor-dbgsym_1.4.0-2026.11.26.13.09_amd64.ddeb
+Size: 127276
+MD5sum: b2204cb45433179aa87392f6508c328b
+SHA1: e54995454e12f45693c46f5063dd04c679bad2fc
+SHA256: e22d883f4c2121b7b69abe78548ec5d174454a61e0488226480bac098378f334
+SHA512: fd02319abded400e3e91533c3768593d77e46cc9a6aee4fe457947da9d322cd4cd1345a62e6a9cc9c89023b72a7c3b90a2c6e6a9fa73f5af2fdcd6567c9be932
+Description: debug symbols for ros-lyrical-robotiq-tactile-sdk-vendor
+Build-Ids: d168fa6d4aed75847e604308c1129b9e3ac5e127
+
+Package: ros-lyrical-robotiq-tactile-sdk-vendor
+Architecture: amd64
+Version: 1.4.0-2026.11.26.13.09
+Priority: optional
+Section: misc
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 141
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libserialport0 (>= 0.1.1), libstdc++6 (>= 13.1), libserialport-dev
+Filename: ./ros-lyrical-robotiq-tactile-sdk-vendor_1.4.0-2026.11.26.13.09_amd64.deb
+Size: 27592
+MD5sum: a9fccdfee7d052c5bf97172c09f4a377
+SHA1: 2841a73e0a583119dd30f5d4d0bc129d2fe8bd5c
+SHA256: f15ed6c8b1b38c1ebbcde612b16422c13196a6616c610d2126c2bb4f51c8bba6
+SHA512: dd64cdf736b53924c580354dfd82bbe737ce937f253cd5d453b472d1ccb1db8746affd25683c355157f173083d23936d6d2116de18db0daf2dd2247fb9eeafdd
+Homepage: https://github.com/robotiq/robotiq-sdk/tree/main/tsf
+Description: Builds the Robotiq tactile sensors C++ SDK (github.com/robotiq/robotiq-sdk, tsf/) at a pinned release, for the ROS packages that use it.
+
+Package: ros-lyrical-robotiq-test-support
+Architecture: amd64
+Version: 1.4.0-2026.11.26.13.10
+Priority: optional
+Section: misc
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 57
+Depends: ros-lyrical-ament-cmake-gtest, ros-lyrical-rclcpp, ros-lyrical-rcpputils
+Filename: ./ros-lyrical-robotiq-test-support_1.4.0-2026.11.26.13.10_amd64.deb
+Size: 8852
+MD5sum: e26fb35709674930315cdf66fd1c17ba
+SHA1: a79ce78ef58295c2ba062b259c82f4290b7f8ead
+SHA256: 3f7b28292e6d38f569e3a00f886917cade15860cbbdfc1b5d42f394d346b5099
+SHA512: dcc6ec2c0a057e25d0750291ff0ac9f66d24f6240b9ee5cdca8a871d19c4e2f8c28b97af93f51cef53a24b277541c0e65e27fd5c156d137dd29d6753e490b6a5
+Homepage: https://index.ros.org/p/robotiq_test_support/#lyrical
+Description: Shared gtest main for the test suites that create nodes.
+
+Package: ros-lyrical-robotiq-tsf-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.4.0-2026.11.26.13.16
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-robotiq-tsf
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 8302
+Depends: ros-lyrical-robotiq-tsf (= 1.4.0-2026.11.26.13.16)
+Filename: ./ros-lyrical-robotiq-tsf-dbgsym_1.4.0-2026.11.26.13.16_amd64.ddeb
+Size: 6767992
+MD5sum: 9e9e4932630d0b697738867791c0e909
+SHA1: 5f3a215633cd8499c9f1c3a61d870a75fbcac9d8
+SHA256: 948cadbf6c9686033f297e9fe4303bbce1c992ccd4bafa2ead20570a61385c72
+SHA512: e9fbb0826651c772a1bb1e5ac1790248b2ef34401a6b509b738a16935e31e405cb5d3f21d5707944af1d888428a09749fe418c85821428ed8d842ead20944878
+Description: debug symbols for ros-lyrical-robotiq-tsf
+Build-Ids: 0c440c5a3371611c3afeec32640e2d023dc7c95d 1235ff8a9ef005948033185d75d9a53a60604ef9 2e1529b749bfa6479b0c5a40a60fdd0921629b59 31761ad54618d10d4d17dcd7a483b731cb9f9b76 448a33798cfcaced64f3cf2e2da18cdc1c6c145e 70a1fb47d46a196bd49e87dce30d5fd2b663d685 746beceaf1ca0c6156fd31c66d35bab5a88d202f 78b086436f3a69ee640a3db35a0dc6d395c178d8 9464c5f06a3df7d32342ddc2f33df92d55829e8c 998297d98c3fab602f5215dc44a5c0981c4936f9 a03d24823a6505d74d2c664ca4dee373837f8a29 a4a690c86e4ba3625d1acf7a52ffe23e944cf881 ee2a400f7972fbb1da05813f952d117f51bfc70a f2e5da35752a6d9421adedce803910cbd6386e58
+
+Package: ros-lyrical-robotiq-tsf
+Architecture: amd64
+Version: 1.4.0-2026.11.26.13.16
+Priority: optional
+Section: misc
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 3635
+Depends: libc6 (>= 2.43), libgcc-s1 (>= 3.3.1), libpython3.14 (>= 3.14.1), libserialport0 (>= 0.1.1), libstdc++6 (>= 14), ros-lyrical-fastcdr, libeigen3-dev, python3-numpy, ros-lyrical-ament-index-cpp, ros-lyrical-geometry-msgs, ros-lyrical-launch, ros-lyrical-launch-ros, ros-lyrical-rclcpp, ros-lyrical-rclpy, ros-lyrical-robotiq-description, ros-lyrical-robotiq-tactile-sdk-vendor, ros-lyrical-rosidl-default-generators, ros-lyrical-rosidl-default-runtime, ros-lyrical-rviz2, ros-lyrical-sensor-msgs, ros-lyrical-std-msgs, ros-lyrical-tf2-ros, ros-lyrical-visualization-msgs
+Filename: ./ros-lyrical-robotiq-tsf_1.4.0-2026.11.26.13.16_amd64.deb
+Size: 424266
+MD5sum: 56390cd030a7d33881309f1aa028defe
+SHA1: 898975f743bd3c017dff1c2587e1eda9fd192066
+SHA256: 97e4c4e10cc7532af3172a25bec5c7fb68e9e738fbc5cc9405a7573303c3f448
+SHA512: 667af56cd4908d89664fe4acc1bb17fb3d813501530038a917530e4acf98e83bcd256669a0eec9489e7bc26c80aa86546cb45fd94b7bd2226f8e1c036d5b41fa
+Homepage: https://github.com/ets-laboratory/tactilesensors4
+Description: ROS 2 tactile sensing package for the Robotiq TSF-85 (Humble, Jazzy, Lyrical).
+
+Package: ros-lyrical-ur-robotiq-bringup
+Architecture: amd64
+Version: 0-2026.11.26.13.20
+Priority: optional
+Section: misc
+Maintainer: "Christian Rauch" <Christian.Rauch@unileoben.ac.at>
+Installed-Size: 54
+Depends: ros-lyrical-launch-ros, ros-lyrical-robotiq-2f-urcap-adapter, ros-lyrical-ur-moveit-config, ros-lyrical-ur-robot-driver, ros-lyrical-ur-robotiq-description
+Filename: ./ros-lyrical-ur-robotiq-bringup_0-2026.11.26.13.20_amd64.deb
+Size: 7926
+MD5sum: 7e2f1835053fdb6478eead788594fab9
+SHA1: c0795e24ed89592f1b5b25fd176d9bd538a46681
+SHA256: 5daa6e3d059fc236b2018b572f8000911522041d1393bf9ed19ab2ab86467a92
+SHA512: 0b485dda68d23ed427c4220de6cf9d096b84e6d0a5bd073fa51be4b68967e8623b8bdb9ad6b8b175a301da8f0ed2deae5e43d6633a0d2733c36a678704bc2ea4
+Homepage: https://index.ros.org/p/ur_robotiq_bringup/#lyrical
+Description: TODO: Package description
+
+Package: ros-lyrical-ur-robotiq-bringup
+Architecture: amd64
+Version: 0-2026.11.26.13.21
+Priority: optional
+Section: misc
+Maintainer: "Christian Rauch" <Christian.Rauch@unileoben.ac.at>
+Installed-Size: 54
+Depends: ros-lyrical-launch-ros, ros-lyrical-robotiq-2f-urcap-adapter, ros-lyrical-ur-moveit-config, ros-lyrical-ur-robot-driver, ros-lyrical-ur-robotiq-description
+Filename: ./ros-lyrical-ur-robotiq-bringup_0-2026.11.26.13.21_amd64.deb
+Size: 7920
+MD5sum: 5045d7389267b2a62dcb007196f062c6
+SHA1: 469eaf0cf88584d91ca531e00c09f87cdaa7f274
+SHA256: 8f43f5f04309a58cca61732596fbffad4bf8a35af4ed1274010914191104a287
+SHA512: 13e6f5f0ef0f459a5ccaaf1f063688ef03b818310752369b7af18cec19df73f3db6aba8ee51dd9d6a175870833c593bcd36b02a0902b8ce40ef70dc41da36888
+Homepage: https://index.ros.org/p/ur_robotiq_bringup/#lyrical
+Description: TODO: Package description
+
+Package: ros-lyrical-ur-robotiq-description
+Architecture: amd64
+Version: 0-2026.11.26.13.19
+Priority: optional
+Section: misc
+Maintainer: "Christian Rauch" <Christian.Rauch@unileoben.ac.at>
+Installed-Size: 53
+Depends: ros-lyrical-robotiq-description, ros-lyrical-ur-description, ros-lyrical-ur-robot-driver
+Filename: ./ros-lyrical-ur-robotiq-description_0-2026.11.26.13.19_amd64.deb
+Size: 6606
+MD5sum: 11edc67bdb6d5a8bb0f196ee566a42ee
+SHA1: 82429540d3645ea55478b1424d59aae1eea59e4c
+SHA256: 3d26c8c8a2b798d31791dcd8822ca459cba57b876ab1f1bd0ad8678045b01299
+SHA512: fa3c15b7b0686cfe1bc49b389326794f8f3e2499dcba900318f851430f122d2a1af06a3b447b461e6a09633de0edffadc7899410b751eebc3230bd8dc3c345c3
+Homepage: https://index.ros.org/p/ur_robotiq_description/#lyrical
+Description: TODO: Package description
+
+Package: ros-lyrical-ur-robotiq-description
+Architecture: amd64
+Version: 0-2026.11.26.13.20
+Priority: optional
+Section: misc
+Maintainer: "Christian Rauch" <Christian.Rauch@unileoben.ac.at>
+Installed-Size: 53
+Depends: ros-lyrical-robotiq-description, ros-lyrical-ur-description, ros-lyrical-ur-robot-driver
+Filename: ./ros-lyrical-ur-robotiq-description_0-2026.11.26.13.20_amd64.deb
+Size: 6606
+MD5sum: 37b109f64baaaf7177c110aa183c0f67
+SHA1: d4a54c36ad99157831d969770ad8bec7c106e1b3
+SHA256: 614681a5348450fdc58785e3a12108c25b87054b0752928b980e65b48f2484af
+SHA512: 090937717c498211bbdf78370f5ed562a30f2170dba750f55ffd494d4612b71c3ad89ba838c304810b2fa29ff69c42b39316fa46c0bb42a554206d90ca58bebc
+Homepage: https://index.ros.org/p/ur_robotiq_description/#lyrical
+Description: TODO: Package description
+

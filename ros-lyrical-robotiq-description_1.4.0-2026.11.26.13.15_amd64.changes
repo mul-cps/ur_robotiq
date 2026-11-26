@@ -1,0 +1,51 @@
+Format: 1.8
+Date: Thu, 19 Nov 2026 00:00:00 -0000
+Source: ros-lyrical-robotiq-description
+Binary: ros-lyrical-robotiq-description
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: amd64
+Version: 1.4.0-2026.11.26.13.15
+Distribution: resolute
+Urgency: high
+Maintainer: "Robotiq" <ros@robotiq.com>
+Changed-By: "Robotiq" <ros@robotiq.com>
+Description:
+ ros-lyrical-robotiq-description - URDF and xacro description package for the Robotiq gripper.
+Changes:
+ ros-lyrical-robotiq-description (1.4.0-2026.11.26.13.15) resolute; urgency=high
+ .
+   * First release on the ROS build farm. Earlier releases: https://github.com/robotiq/robotiq-ros/releases
+   * Hand-E and Hand-E C10 descriptions, selected with ``gripper_model`` ``hand_e`` and ``hand_e_c10``.
+   * ``slave_address`` launch and macro argument, default 9, for a gripper at a non-default Modbus address.
+   * ``gripper_goal_tolerance`` launch argument, defaulting per ``gripper_model``.
+   * The ``reactivate_gripper`` GPIO carries the macro's ``prefix``, so several grippers can share one description.
+   * Every hardware plugin, mock and simulators included, gets ``gripper_closed_position`` and ``gripper_profile``, and the launch spawns ``robotiq_normalized_position_broadcaster``.
+   * The descriptions no longer set ``gripper_max_speed``: the driver takes the speed range from ``gripper_profile``. Passing it to a macro still overrides the profile's top speed.
+   * ``robotiq_gripper_ros2_control`` accepts PickNik ``main``'s ``sim_isaac``, ``isaac_joint_commands`` and ``isaac_joint_states`` arguments on the 2F-85 and the 2F-140, deprecated like in the ``robotiq_gripper`` macros.
+   * Changes for users of PickNik's 0.0.1 release:
+ .
+       * Mock hardware (``use_fake_hardware``) declares only the driven joint, ``robotiq_85_left_knuckle_joint``. ``robot_state_publisher`` derives the other finger joints from the URDF's mimic tags.
+       * ``sim_isaac`` selects ``topic_based_ros2_control/TopicBasedSystem`` instead of ``isaac_ros2_control/IsaacSystem``, on the same ``/isaac_joint_commands`` and ``/isaac_joint_states`` topics.
+       * ``sim_ignition`` selects ``gz_ros2_control/GazeboSimSystem`` instead of ``ign_ros2_control/IgnitionSystem``.
+       * Deprecated, and removed in the next major release: the ``sim_ignition``, ``sim_isaac`` and ``fake_sensor_commands`` arguments, ``urdf/robotiq_gripper.ros2_control.xacro``, the ``connected_to`` argument of ``ur_to_robotiq``, and the 2F-85 meshes directly under ``meshes/visual`` and ``meshes/collision``.
+ .
+   * Changes for users of the 2F-140 description of 1.1 to 1.3:
+ .
+       * The 2F-140 is now validated on a real gripper. The 1.3 description modelled the previous 2F-140, and its closed position put the fingers 9 to 15 mm away from the real ones.
+       * The description is rebuilt from Robotiq's Isaac Sim asset of the current 2F-140: new meshes, and link frames at each link's pivot, parallel to ``robotiq_140_base_link``. Link and joint names are unchanged. It hands the driver ``gripper_profile`` ``2f_140``.
+       * ``gripper_closed_position`` is 0.77 instead of 0.695, fitted to a real 2F-140, and ``finger_joint`` reaches 0.785 instead of 0.7. A goal of 0.695 no longer closes the gripper fully.
+       * The pad frames, ``left_inner_finger_pad`` and ``right_inner_finger_pad``, keep their orientation and move to the centre of the pad's contact face.
+       * ``urdf/robotiq_2f_140.xacro`` keeps only the ``finger_links``, ``finger_joint`` and ``right_outer_knuckle_joint`` macros, which a ``robotiq_2f_140_macro.urdf.xacro`` copied from 1.3 calls; the per-link macros are gone. The mimic joints turn the other way, and their limits follow ``finger_joint``'s.
+       * Deprecated, and removed in the next major release: the ``stroke`` argument of ``finger_links``, and the 1.3 meshes under ``meshes/visual/2f_140`` and ``meshes/collision/2f_140`` that the description no longer uses. ``meshes/collision/2f_140/robotiq_2f_140_base_link.stl`` now holds the new base's hull.
+ .
+   * The Hand-E description hands the driver ``gripper_profile`` ``hand_e_100`` at ``hand_e_stroke:=0.100``, and ``hand_e`` at 0.050. ``robotiq_gripper_ros2_control`` in ``hand_e.ros2_control.xacro`` takes a ``gripper_profile`` argument.
+   * ``view_gripper.launch.py`` takes ``gripper_model``, and both launches pick the RViz view by it.
+Checksums-Sha1:
+ 84bfca4ba0a0d1f1a331caa144ecb099ee12831d 12121 ros-lyrical-robotiq-description_1.4.0-2026.11.26.13.15_amd64.buildinfo
+ a41b69331812d24d5a3bfa133f5049cfa09a537e 4913362 ros-lyrical-robotiq-description_1.4.0-2026.11.26.13.15_amd64.deb
+Checksums-Sha256:
+ 0e681c4541cf335667c592f3feb9bb859b9a72890eede07108670d9052a33dee 12121 ros-lyrical-robotiq-description_1.4.0-2026.11.26.13.15_amd64.buildinfo
+ b88bf7378304f6becea8f51cca190f530bfba6a961d8c1e7b216cb16082f927b 4913362 ros-lyrical-robotiq-description_1.4.0-2026.11.26.13.15_amd64.deb
+Files:
+ 62c690e1c201eb2e95022843a5f8a81b 12121 misc optional ros-lyrical-robotiq-description_1.4.0-2026.11.26.13.15_amd64.buildinfo
+ fe277c5b1b862264880d53a1a7f973f1 4913362 misc optional ros-lyrical-robotiq-description_1.4.0-2026.11.26.13.15_amd64.deb

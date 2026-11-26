@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Thu, 19 Nov 2026 00:00:00 -0000
+Source: ros-lyrical-robotiq-msgs
+Binary: ros-lyrical-robotiq-msgs
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: amd64
+Version: 1.4.0-2026.11.26.13.08
+Distribution: resolute
+Urgency: high
+Maintainer: "Robotiq" <ros@robotiq.com>
+Changed-By: "Robotiq" <ros@robotiq.com>
+Description:
+ ros-lyrical-robotiq-msgs - Messages for the Robotiq gripper driver and controllers.
+Changes:
+ ros-lyrical-robotiq-msgs (1.4.0-2026.11.26.13.08) resolute; urgency=high
+ .
+   * First release on the ROS build farm. Earlier releases: https://github.com/robotiq/robotiq-ros/releases
+Checksums-Sha1:
+ 9e05fb884161034b9e8151ed0f980999121b8674 197564 ros-lyrical-robotiq-msgs-dbgsym_1.4.0-2026.11.26.13.08_amd64.ddeb
+ 21d11580f2c7d53d7ec12d9af73412fcfd793a5d 15501 ros-lyrical-robotiq-msgs_1.4.0-2026.11.26.13.08_amd64.buildinfo
+ 4b30c25b672446b25438d21a5ea4b74b6710af2e 50110 ros-lyrical-robotiq-msgs_1.4.0-2026.11.26.13.08_amd64.deb
+Checksums-Sha256:
+ 0e7df63aa7e6567b3763152976f373fcd481134d7ff4e032243d27ce1ec946d5 197564 ros-lyrical-robotiq-msgs-dbgsym_1.4.0-2026.11.26.13.08_amd64.ddeb
+ 28a87a2bd5fe7d45af51959ab184359d94cc61933aadb9a5c9780966f2a4d5c1 15501 ros-lyrical-robotiq-msgs_1.4.0-2026.11.26.13.08_amd64.buildinfo
+ 3ab043acbbaeffd36e57316be0ab5d8cd4b695bfa075fbd1e2b7ce0a3c6c212b 50110 ros-lyrical-robotiq-msgs_1.4.0-2026.11.26.13.08_amd64.deb
+Files:
+ e5220642e06e98e1dcbab48f1697a043 197564 debug optional ros-lyrical-robotiq-msgs-dbgsym_1.4.0-2026.11.26.13.08_amd64.ddeb
+ 4e610a76a524667adcefceb219ff2fee 15501 misc optional ros-lyrical-robotiq-msgs_1.4.0-2026.11.26.13.08_amd64.buildinfo
+ 7f4444c8d066ded2acfff231997bd026 50110 misc optional ros-lyrical-robotiq-msgs_1.4.0-2026.11.26.13.08_amd64.deb

@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Thu, 19 Nov 2026 00:00:00 -0000
+Source: ros-lyrical-robotiq-grippers-sdk-vendor
+Binary: ros-lyrical-robotiq-grippers-sdk-vendor
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: amd64
+Version: 1.4.0-2026.11.26.13.07
+Distribution: resolute
+Urgency: high
+Maintainer: "Robotiq" <ros@robotiq.com>
+Changed-By: "Robotiq" <ros@robotiq.com>
+Description:
+ ros-lyrical-robotiq-grippers-sdk-vendor - Builds the Robotiq grippers C++ SDK (github.com/robotiq/robotiq-s
+Changes:
+ ros-lyrical-robotiq-grippers-sdk-vendor (1.4.0-2026.11.26.13.07) resolute; urgency=high
+ .
+   * First release.
+Checksums-Sha1:
+ eed43f91ac42fe5255832ba253789b375741f364 9749 ros-lyrical-robotiq-grippers-sdk-vendor_1.4.0-2026.11.26.13.07_amd64.buildinfo
+ 4e00a259face1bb36e4e95bf87816b5b5aad71f7 122178 ros-lyrical-robotiq-grippers-sdk-vendor_1.4.0-2026.11.26.13.07_amd64.deb
+Checksums-Sha256:
+ f9b7d721b786f1ce07bd65f657520ea657f54f8293f919d684d396f524f229c7 9749 ros-lyrical-robotiq-grippers-sdk-vendor_1.4.0-2026.11.26.13.07_amd64.buildinfo
+ 0cd3577468b4e19c06bb2025a001cbce1b7a108a7c0871eca3d34e3ea67b155d 122178 ros-lyrical-robotiq-grippers-sdk-vendor_1.4.0-2026.11.26.13.07_amd64.deb
+Files:
+ d1a859b6147b3b9864480c50b596052f 9749 misc optional ros-lyrical-robotiq-grippers-sdk-vendor_1.4.0-2026.11.26.13.07_amd64.buildinfo
+ 269af33b4e6705f34332c9fabb50f01f 122178 misc optional ros-lyrical-robotiq-grippers-sdk-vendor_1.4.0-2026.11.26.13.07_amd64.deb

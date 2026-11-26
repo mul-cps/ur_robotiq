@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Thu, 19 Nov 2026 00:00:00 -0000
+Source: ros-lyrical-robotiq-test-support
+Binary: ros-lyrical-robotiq-test-support
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: amd64
+Version: 1.4.0-2026.11.26.13.10
+Distribution: resolute
+Urgency: high
+Maintainer: "Robotiq" <ros@robotiq.com>
+Changed-By: "Robotiq" <ros@robotiq.com>
+Description:
+ ros-lyrical-robotiq-test-support - Shared gtest main for the test suites that create nodes.
+Changes:
+ ros-lyrical-robotiq-test-support (1.4.0-2026.11.26.13.10) resolute; urgency=high
+ .
+   * First release.
+Checksums-Sha1:
+ 569331e3a04412e909e0152c1ed2e233f02d8710 17775 ros-lyrical-robotiq-test-support_1.4.0-2026.11.26.13.10_amd64.buildinfo
+ a79ce78ef58295c2ba062b259c82f4290b7f8ead 8852 ros-lyrical-robotiq-test-support_1.4.0-2026.11.26.13.10_amd64.deb
+Checksums-Sha256:
+ aefd556aa094e7f19b115d253fdc1c6ef93c570f0b0039fdd9122ea54d7c22b3 17775 ros-lyrical-robotiq-test-support_1.4.0-2026.11.26.13.10_amd64.buildinfo
+ 3f7b28292e6d38f569e3a00f886917cade15860cbbdfc1b5d42f394d346b5099 8852 ros-lyrical-robotiq-test-support_1.4.0-2026.11.26.13.10_amd64.deb
+Files:
+ 5ceb63b43a2af85a43efd0584048dc20 17775 misc optional ros-lyrical-robotiq-test-support_1.4.0-2026.11.26.13.10_amd64.buildinfo
+ e26fb35709674930315cdf66fd1c17ba 8852 misc optional ros-lyrical-robotiq-test-support_1.4.0-2026.11.26.13.10_amd64.deb

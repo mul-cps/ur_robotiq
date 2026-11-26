@@ -1,0 +1,13 @@
+repositories:
+  src/robotiq-ros:
+    type: git
+    url: https://github.com/robotiq/robotiq-ros.git
+    version: 49167c4f44a1da2b564715fba3e729c8ce958b63
+  src/robotiq_2f_urcap_adapter:
+    type: git
+    url: https://github.com/mul-cps/robotiq_2f_urcap_adapter.git
+    version: 636fdb8f9b0710ea21918243e5b1de4fca2baaa2
+  src/ur_robotiq:
+    type: git
+    url: https://github.com/mul-cps/ur_robotiq.git
+    version: 9821e93c4f4d34e4eeea3265d82f44e426875500
